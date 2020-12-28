@@ -5,6 +5,8 @@ ruby '2.5.1'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 6.0.3', '>= 6.0.3.4'
+# a sophisticated and secure hash algorithm designed by The OpenBSD project for hashing passwords. The bcrypt Ruby gem provides a simple wrapper for safely handling passwords.
+gem 'bcrypt', '~> 3.1', '>= 3.1.16'
 # bootstrap-sass is a Sass-powered version of Bootstrap 3, ready to drop right into your Sass powered applications.
 gem 'bootstrap-sass', '~> 3.4', '>= 3.4.1'
 # Use Puma as the app server
@@ -68,4 +70,3 @@ end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
-
